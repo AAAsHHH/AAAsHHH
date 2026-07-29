@@ -3,7 +3,7 @@
 A 2D pixel-art sandbox game built with **C++** and **raylib**, compiled to WebAssembly with Emscripten.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~         ~~          __
-       _T      .,,.    ~--~ ^^
+       _T      .,,.    ~--~ ^^              
  ^^   // \                    ~
       ][O]    ^^      ,-~ ~
    /''-I_I         _II____
