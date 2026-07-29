@@ -2,37 +2,37 @@
 
 A 2D pixel-art sandbox game built with **C++** and **raylib**, compiled to WebAssembly with Emscripten.
 
-MMMMMMMMMMMM@@@@@@@-II  {O@@@@@@M@@MM@@@@@@@@@@@@@@@@@@@@@@M@@M@@M
-MMMMMMMMMMMMM@@@M{ c{"  I>|a@@@@OI -cJOM@@@@M@@M@@@@@@@@@@@@@@@@M@
-MMMMMMMMMMMM@@@M" >acI      |adJJ{"   I-{@@@@@M@@@@@@@@@M@@MM@@M@@
-MMMMMM@M@MM@@@M"  "ad>         "I>"      >J@@@M@@M@@M@@@@@@@@M@@M@
-MMMMM@M@@M@@@d""I{JMaOj>->""              I|a@@@@@@@@@M@@M@@@@@@M@
-MMMM@MMMM@@@M| I""caaaaMMMMdO{             >jM@@@MM@@@@@@@@@M@@@@@
-MMM@@MMMMM@@M>   "{OaM@@@@@MO|I           "" >a@@@@MM@@MM@@@@@M@@@
-MM@MM@@@@@@@M{   ">cdM@@@@@@MOj{"             {@@@M@@MMM@@@M@@@MM@
-M@MM@MM@@M@@@c    Ija@@@@@@@@@@@@@|"          "d@@@@@@@M@@M@@M@@MM
-MMMMM@M@@M@@@M-  IO@@@@@@@@@@@@MdaaJ>          I@@@@@@@@@M@M@@@@@@
-djM@M@@M@@@@@@J "-cOJjcJOOjI"""I"|j-I"       Ij>-@@@@@@@@MMMM@@@@M
-MM@@@M@@@@@M@@O {"""I>>-{|>I>>-JMaO{"          " a@@@@@M@@@@@@@@@@
-@@M@@@@@@@@@@@a @dj|-I>->jc""I"""""jdac"        > M@@@@@@@@@@@@@@@
-@@@@M@@@@@@@@@a d@-""""I-@@@{"">-IJ@@@@j        -J M@@@@@@@@@@@@@@
-@M@@@@@@@@@@@@a cJI>-->{a@@@@@dJOa@@@a|"         J IM@@@@@@@@@@@@@
-@@@@@@@@@@@@@@a -M>>{jjJ@@@@@@aa@@@@d{"          |  c@@@@@@@@@@@@@
-@@M@@@@@@@@@@@@I @djcJJO@@@@@@a|{JJ|I"          -@O  c@@@@@@@@@@@@
-@@@@@@@@@@@M@@@{">@Jj|{{I"    -@M|>""       I"  " -  "O@@@@@@@@@@@
-M@@@@@@@@@@@@@M|  Id|>||"    -d@Mdj>""      "    >c   Id@@@@@@@@@@
-@@M@@@@@@@@@@@@j " >{->"      ">-I                -    "a@@@@@@@@@
-@@@@M@@M@@M@@@@J "  "I"         "           ""  IjI      O@@@@MMMJ
-@M@@@@@@@@@@@@@J I               "         "I             I-JMMMaO
-@@MM@MM@@@@M@@@jI-      "I     ""           {>         ">I-cOddddc
-M@@@@@@@MM@@@@M---          I>>>-"I     "          "|JdddOJOOOOdJc
-@@@@M@@@@@@@@@M{>-         "II>-- I                {jOadJcccj|||j|
-@@@@@@@@@MMM@@@j -         "I>-->                  "{JOccJc|{--{|-
-@@@@@@@@@@@@@@@{ >       III" "                   ""-|jcj{-{{->->>
-@@@@@@@@@@@@@@@{ "                                "I{jj|{|>-->I"I"
-@@@@@@@@@@@@@@@-                              II""I|-"I|{>II>""I>>
-@@@@@@@@@M@@@@@-                        """"I-{{>>{{>>-{->>>III>>"
-@@@@@@@@@@@@@@@>                ""I-{||ccJcjjj|--c-j||{>>II>I"""""
+||jj||j||j|jjjjjj|jj|||||j|jjj|jjjjjjjjjjjjjjjjjjjjjjjjjjj|jj|jjjj
+j||jj|jj|jj|j|jj||{{-{{{{||jj|||j|jj|jjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+jj||jj|jj||jj|j|-{{{{|||jjj||{{||||jjj||jjjjjjjjjjjjjjjjjjjjjjjjjj
+jjj||j||||jjjj{--|{-----{||||{---{{{|jjjjjjjjjjjjjjjj|jj|jj|jjjjjj
+||jj|jjjj|||j{--{|{-----------------{|j||jjjjjjjjjjjjjjjj|jjj|jjjj
+|j|jjjjjjjjj--{{{||{-----------------{{|jjjjjjjjjjjjjj|jjjjjjjjjjj
+jj|jjj||jjj|----{||||||||{------------{{|jjjjjjjjjjjjjjjjjjjjjjjjj
+|jjjjj||jjj{----{|||||j||{{-------------{|jjjjjjjjjjjjjjjjjjjjjjjj
+|jj|jjjjjj||-----{|||||||||{{------------||jjj|jjjjjjj|||jjjjjjjjj
+j||j||jj|jjj----{||jjjjjjjjj|||{----------|jjjjjjjj|jjjjjjjjjjjjjj
+||jjjjjjjjjj|--{||||||||{{{{-{{{{---------{|jjjjjj||||jjj|jjjjjjjj
+||jjjjjjjj|j|-{---{{{{{{---{|||{---------{-||jj|jjjjjjj|jjjjjjjjjj
+jjjjjjjjjj|jj-|{{{--{{{{-{-----{||{---------|jj|jjjjjjjjjjjjjjjjjj
+jjjjjjjjjjj|j-||------|j|--{{-{|jj|--------{-|jjj|jjjjjjjjj|jjjjj|
+jjjjjjjjjjjjj-{{-{{{{|jjjj|||||||{---------{--|jjjjjjjjjjjj|jj|jjj
+jjjjjjjjjj|jj--|{{{{{|jjjj|{||||{----------{{-{||jjjjjjjjj||jj|jjj
+jjjjjjjjjj|jj{-{|{{{{|{{{{{{{{{------------{{--{|jjjjjjjjjjjjjjjjj
+jjjjjjjjjjjjj{--{|{{{-----{|||{{-------{---{{---{jjjjjj|jjjjjjjjjj
+jjjjjjjjjjjjj{---{{{{------{{{-------------------|||jjjjjjjj||j|||
+jjjjjjjjjjj|j|-----------------------------{{-----{|jj||||{||{{{{{
+jjjjjjjjjjjjj|---------------------------------------{||||{{{|{{{{
+jj|jj|jjj|jjj{-{------------{----------{---------{{{{{|||{{{{{{{{{
+|jjjjjj||jjj|{{{----------{{{-{---------------{|||{{|{{{{{{{{{{{{{
+jjjj||jj||jjj{-{--------{-{{{----------------{{||{{{{{{{{{{{{----{
+jjjjjjjjj|jjj{-{-----------{-----------------{-{{{{{{{{{{--{------
+jjj|jj||jj|jj{--------------------------------{{{{{{{{----{{{{----
+jjjjjjjj|jjjj{-------------------------------{{-{{{-----{{--------
+jjjjj|jj||jjj{--------------------------{{{{{{-{{{{-{--{{--{{---{{
+jj|jjjjjjjjjj{----------------{{{{{{{{{{{{{{{{{{{{---------------{
+jjjjjj||jjjj|--------------{{{{{{{{{{{{{{{{{{{{{-----{{{-------{--
+jjjjjjjjj|{{---------------{{{{{{{{{{{{{{{{{{{{----{{{{{----------
 
 ## Play now
 
